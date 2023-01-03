@@ -1,0 +1,142 @@
+.trip{
+    margin: 4rem 6rem;
+   
+   
+}
+.trip h1{
+    font-size: 3rem;
+}
+.firstplace{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 3rem;
+    width: 45%;
+    float: left;
+}
+.secondplace-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 3rem;
+    width: 45%;
+    float: left;
+}
+.firstplace-reverse{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin-top: 3rem;
+    width: 45%;
+    float: right;
+}
+.thirdplace-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 3rem;
+    width: 45%;
+    float: right;
+}
+.destext{
+    width: 40%;
+    text-align: start;
+    font-size: 1.1rem;
+   
+}
+
+.destext h2{
+    padding-bottom: 1rem;
+    font-size: 35px;
+}
+
+.img{
+    position: relative;
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+    margin-top: 30px;
+    left: 10%;
+   
+   
+}
+.img img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
+    margin-top: 40px;
+
+}
+
+@media screen and (max-width: 1000px){
+    .trip{
+        margin: 4rem 2rem;
+    }
+    .firstplace{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .secondplace-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .firstplace-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .thirdplace-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .destext{
+        width: 100%;
+    }
+    
+} 
+
+@media screen and (max-width: 900px){
+    .trip{
+        margin: 4rem 2rem;
+    }
+    .firstplace{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+    .secondplace-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+    .firstplace-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+    .thirdplace-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+    .destext{
+        width: 100%;
+    }
+    .img{
+        width: 80%;
+        margin: 1rem 0;
+    }
+    .img img{
+        height: 250px;
+    }
+} 

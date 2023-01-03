@@ -1,0 +1,117 @@
+.Navbaritems{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(236, 237, 245, 0.901);
+    color: white;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+}
+.logo{
+    color: rgb(18, 3, 3);
+    font-size: 25px;
+    cursor: pointer;
+}
+.navbarmenu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar-links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.navbar-links i{
+    padding-right: 10px;
+}
+
+.navbar-links:hover{
+    background-color: rgb(152, 142, 230);
+    color: white;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-links-mobile{
+    display: none;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 13px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+ @media screen and (max-width: 460px) {
+    .Navbaritems{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(236, 237, 245, 0.901);
+        color: white;
+        align-items: center;
+        padding: 0 30px;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 80px;
+        border-radius: 13px;
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 9999;
+        font-size: 25px;
+    }
+    .logo{
+        color: rgb(18, 3, 3);
+        font-size: 25px;
+        cursor: pointer;
+       
+    }
+    .navbarmenu{
+        display: grid;
+        grid-template-columns: repeat(6,auto);
+        grid-gap: 10px;
+        list-style: none;
+        align-items: center;
+    }
+    
+    .navbar-links{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0.7rem 1rem;
+        white-space: nowrap;
+    }
+    
+    .navbar-links i{
+        padding-right: 10px;
+    }
+
+}
