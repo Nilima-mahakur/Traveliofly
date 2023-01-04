@@ -1,8 +1,8 @@
 {
-  "homepage": "https://nilimamahakur18@gmail.com.github.io/Traveliofly",
+  "homepage": "http://nilimamahakur18@gmail.com.github.io/Traveliofly",
   "name": "travelandtour",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "cra-template": "1.2.0",
     "gh-pages": "^4.0.0",
