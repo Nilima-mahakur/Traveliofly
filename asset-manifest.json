@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/Traveliofly/static/css/main.f848c5e2.css",
-    "main.js": "/Traveliofly/static/js/main.d62adab6.js",
+    "main.css": "/Traveliofly/static/css/main.c26d835c.css",
+    "main.js": "/Traveliofly/static/js/main.97d61676.js",
     "static/media/trip2.jpg": "/Traveliofly/static/media/trip2.0c77a5138bfc8bf2d68a.jpg",
     "static/media/Homeimg.jpg": "/Traveliofly/static/media/Homeimg.b00125d0b62fe9b002f8.jpg",
     "static/media/amsterdam.jpg": "/Traveliofly/static/media/amsterdam.24b6fe37f8d3ba84d8f3.jpg",
-    "static/media/about1.jpg": "/Traveliofly/static/media/about1.1b414688b73021b05741.jpg",
     "static/media/ladakh.jpg": "/Traveliofly/static/media/ladakh.027b857ef62d1bdc9bdf.jpg",
     "static/media/paris2.jpg": "/Traveliofly/static/media/paris2.ad1d4a335fd8878efd4d.jpg",
     "static/media/main2.jpg": "/Traveliofly/static/media/main2.eaa7438db4f0e840ed57.jpg",
     "index.html": "/Traveliofly/index.html",
-    "main.f848c5e2.css.map": "/Traveliofly/static/css/main.f848c5e2.css.map",
-    "main.d62adab6.js.map": "/Traveliofly/static/js/main.d62adab6.js.map"
+    "main.c26d835c.css.map": "/Traveliofly/static/css/main.c26d835c.css.map",
+    "main.97d61676.js.map": "/Traveliofly/static/js/main.97d61676.js.map"
   },
   "entrypoints": [
-    "static/css/main.f848c5e2.css",
-    "static/js/main.d62adab6.js"
+    "static/css/main.c26d835c.css",
+    "static/js/main.97d61676.js"
   ]
 }
