@@ -3,7 +3,8 @@ import Navbar from '../Components/Navbar'
 import Main  from '../Components/Main'
 import Img from '../Images/Homeimg.jpg'
 import Trip from '../Components/Trip'
-import Footer from '../Components/Footer'
+// import Footer from '../Components/Footer'
+// import Contact from './Contact'
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
     <Main clName="main" mainimg={Img} title="Travel with no regrets" text="Plan your next Journey"
     btntext="Plan with Us" url="/" btnclass="show"/>
     <Trip/>
-    <Footer/>
+    {/* <Contact/> */}
+    {/* <Footer/> */}
     </div>
   )
 }
